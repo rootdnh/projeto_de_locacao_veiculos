@@ -1,0 +1,75 @@
+  
+.tab th {
+    border-collapse: collapse; /* CSS2 */
+    border: 1px solid black;
+}
+.tab thead {
+    border-collapse: collapse; /* CSS2 */
+    border: 1px solid black;
+    font-size: large;
+}
+
+.tab tr {
+    border-collapse: collapse; /* CSS2 */
+    border: 1px solid black;
+}
+.tab tbody {
+    border-collapse: collapse; /* CSS2 */
+    border: 1px solid black;
+
+    border-collapse: collapse; /* CSS2 */
+    border: 1px solid black;
+}
+.tab td {
+    border-collapse: collapse; /* CSS2 */
+    border: 1px solid black;
+
+    justify-content: center;
+    align-content: center;
+padding: 10px;
+}
+
+.tab {
+    width: auto;
+    border-collapse: collapse; /* CSS2 */
+    padding: 5px;
+    background: #F0F0F0;
+    border: 1px solid black;
+
+    padding: 10px
+}
+
+.tab tr:hover {
+    padding: 10px;
+    background: gray;
+}
+
+.filters{
+    width: 100%;
+}
+
+.table {
+    border: 2px solid black;
+    caption-side: bottom;
+    font-style: italic;
+    text-align: right;
+    margin-top: 100px;
+}
+
+.body {
+    width: auto;
+    height: 100%;
+   
+}
+.app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    float: none;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    overflow-y: scroll;
+    margin-bottom: 60px;
+   
+}
